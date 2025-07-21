@@ -1,0 +1,847 @@
+.backImg {
+    background-image: url('../public/mainImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    .sizeSec {
+        max-width: 1296px;
+        margin: auto;
+
+
+        .main {
+            max-width: 645px;
+            padding: 80px 20px 236px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+
+
+            h1 {
+                font-family: Inter;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 110px;
+                line-height: 123%;
+                letter-spacing: 2%;
+                color: #FFFFFF;
+            }
+
+            p {
+                font-family: Inter;
+                font-weight: 300;
+                font-style: Light;
+                font-size: 18px;
+                line-height: 160%;
+                letter-spacing: 1%;
+                color: #FFFFFF;
+            }
+
+            button {
+                opacity: 1;
+                width: 180px;
+                height: 52px;
+                border-radius: 10px;
+                border: #F57520;
+                background: #F57520;
+                color: #FFFFFF;
+
+            }
+        }
+
+    }
+
+}
+
+.sizeSel {
+    background: #101010;
+
+    .selector {
+        display: flex;
+        justify-content: space-between;
+
+
+        h1 {
+            font-family: Inter;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 24px;
+            line-height: 160%;
+            letter-spacing: 1%;
+            color: #FFFFFF;
+        }
+
+        .leftSel {
+            background: #101010;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 48px;
+            width: 33%;
+        }
+
+        .centrSel {
+            background: #131313;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 48px;
+            width: 33%;
+
+        }
+
+        .rightSel {
+            background: #2E2E2E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 48px;
+            width: 33%;
+        }
+    }
+
+}
+
+.brands {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 100px 0 120px 0;
+}
+
+.backCol {
+    background: #F8F8F8;
+    padding: 80px 20px 100px 20px;
+
+    .bikeSize {
+        max-width: 1296px;
+        margin: auto;
+
+        h1 {
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Regular;
+            font-size: 64px;
+            line-height: 123%;
+            letter-spacing: 5%;
+            padding-bottom: 80px;
+
+        }
+
+        .cards {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+
+            .cardA {
+                background: #FFFFFF;
+                border-radius: 10px;
+                max-width: 400px;
+
+                .bike {
+                    padding-left: 16px;
+
+                }
+
+                .titlecard {
+                    max-width: 349px;
+                    padding-left: 16px;
+                    padding-bottom: 24px;
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-style: Light;
+                    font-size: 18px;
+                    line-height: 160%;
+                    letter-spacing: 1%;
+
+                }
+
+                .pricecard {
+                    max-width: 349px;
+                    padding-left: 16px;
+                    padding-bottom: 20px;
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-style: Light;
+                    font-size: 18px;
+                    line-height: 160%;
+                    letter-spacing: 1%;
+                }
+            }
+        }
+    }
+}
+
+.catalog {
+    background-color: #FFFFFF;
+    padding: 160px 0 80px 0;
+
+    .catalogcount {
+        max-width: 1296px;
+        margin: auto;
+
+        .titlecat {
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 64px;
+            line-height: 123%;
+            letter-spacing: 5%;
+            padding-bottom: 80px;
+        }
+
+        .biker {
+            background-position: center;
+            max-width: 1280px;
+            height: 300px;
+            background-image: url(../public/orange.png);
+        }
+
+        .blackblocks {
+            margin-top: 16px;
+            display: flex;
+            gap: 16px;
+            padding-bottom: 160px;
+
+            .leftblack {
+                width: 400px;
+                height: 458px;
+                background-image: url(../public/tradefon.png);
+            }
+
+            .centerblack {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .upcenter {
+                    width: 400px;
+                    height: 190px;
+                    background-image: url(../public/zapfon.png);
+
+                }
+
+                .downcenter {
+                    width: 400px;
+                    height: 252px;
+                    background-image: url(../public/aksfon.png);
+                }
+            }
+
+            .rightblack {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .upright {
+                    width: 448px;
+                    height: 239px;
+                    background-image: url(../public/ekipfon.png);
+
+                }
+
+                .downright {
+                    width: 449px;
+                    height: 203px;
+                    background-image: url(../public/stanfon.png);
+
+                }
+            }
+        }
+
+        .nevergiveup {
+            display: flex;
+            justify-content: space-between;
+
+            h1 {
+                font-family: Inter;
+                font-weight: 700;
+                font-style: Regular;
+                font-size: 64px;
+                line-height: 123%;
+                letter-spacing: 5%;
+                color: #101010;
+
+            }
+
+            .Rtext {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                max-width: 500px;
+
+                .Rtitle {
+                    font-family: Inter;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 160%;
+                    letter-spacing: 0%;
+                    color: #101010;
+                }
+
+                .more {
+                    font-family: Inter;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 16px;
+                    line-height: 123%;
+                    letter-spacing: 0%;
+                    color: #B3B3B3;
+
+
+                }
+
+            }
+        }
+    }
+
+
+}
+
+.sizebiker {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .bikerImg {
+        width: 100%;
+        height: 600px;
+        background-image: url(../public/biker.svg);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .backColors {
+        background: #2E2E2E;
+        width: 100%;
+
+        .sizeBlck {
+            margin: auto;
+            max-width: 1296px;
+            display: flex;
+            padding: 36px 20px 36px 20px;
+            justify-content: space-between;
+
+            .infos {
+
+                max-width: 22%;
+
+
+                .upstare {
+                    display: flex;
+                    gap: 16px;
+                    padding-bottom: 16px;
+
+                    h2 {
+                        font-family: Inter;
+                        font-weight: 500;
+                        font-style: Medium;
+                        font-size: 20px;
+                        line-height: 160%;
+                        letter-spacing: 1%;
+                        color: #FFFFFF;
+                    }
+
+                }
+
+
+
+                .textIninfos {
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-style: Light;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+    }
+
+}
+
+.backWinterCol {
+    background-image: url(../public/winterfon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px 100px 20px;
+
+    .bikeSizeW {
+        max-width: 1296px;
+        margin: auto;
+
+        h1 {
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Regular;
+            font-size: 64px;
+            line-height: 123%;
+            letter-spacing: 5%;
+            padding-bottom: 80px;
+            color: #FFFFFF;
+
+        }
+
+        .cards {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+
+
+
+            .cardA {
+                background: #FFFFFF;
+                border-radius: 10px;
+                max-width: 400px;
+
+
+
+                .bike {
+                    padding-left: 16px;
+
+                }
+
+                .titlecard {
+                    max-width: 349px;
+                    padding-left: 16px;
+                    padding-bottom: 24px;
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-style: Light;
+                    font-size: 18px;
+                    line-height: 160%;
+                    letter-spacing: 1%;
+
+                }
+
+                .pricecard {
+                    max-width: 349px;
+                    padding-left: 16px;
+                    padding-bottom: 20px;
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-style: Light;
+                    font-size: 18px;
+                    line-height: 160%;
+                    letter-spacing: 1%;
+                }
+            }
+        }
+    }
+}
+
+
+
+.scalebikeCol {
+    background: #F8F8F8;
+    padding: 132px 20px 80px 20px;
+
+    .sizeScale {
+        max-width: 1296px;
+        margin: auto;
+
+
+        h1 {
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Regular;
+            font-size: 64px;
+            line-height: 123%;
+            letter-spacing: 5%;
+            padding-bottom: 80px;
+
+        }
+
+        .scaleBlocks {
+            display: flex;
+            justify-content: space-between;
+
+            .leftscale {
+                max-width: 650px;
+                display: flex;
+                gap: 16px;
+                flex-wrap: wrap;
+
+                .ram {
+                    width: 302px;
+                    height: 233px;
+                    background-image: url(../public/ram.svg);
+                }
+
+                .boardcom {
+                    width: 302px;
+                    height: 233px;
+                    background-image: url(../public/boardkom.svg);
+                }
+
+                .trans {
+                    width: 302px;
+                    height: 233px;
+                    background-image: url(../public/trans.svg);
+                }
+
+                .oborud {
+                    width: 302px;
+                    height: 233px;
+                    background-image: url(../public/oborud.svg);
+                }
+            }
+
+            .rightscale {
+                max-width: 510px;
+
+                .scalebike {
+                    width: 509px;
+                    height: 257px;
+                    background-image: url(../public/scalebike.svg);
+                }
+
+                p {
+                    padding: 29px 0 40px 0;
+                    font-family: Inter;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color: #4C4C4C;
+                }
+
+                button {
+                    top: 6065px;
+                    left: 1099.14px;
+                    opacity: 1;
+                    border-radius: 10px;
+                    border: 0;
+                    gap: 10px;
+                    padding-top: 16px;
+                    padding-right: 80px;
+                    padding-bottom: 16px;
+                    padding-left: 80px;
+                    background: #F57520;
+                    font-family: Inter;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 16px;
+                    line-height: 123%;
+                    text-align: center;
+                    color: #FFFFFF;
+
+
+                }
+            }
+        }
+    }
+}
+
+
+.winnerCol {
+    background-color: #FFFFFF;
+    padding: 160px 0 160px 0px;
+
+    .winnerSize {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+
+
+        h1 {
+            max-width: 1296px;
+            margin: auto;
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Regular;
+            font-size: 64px;
+            line-height: 123%;
+            letter-spacing: 5%;
+            padding-bottom: 80px;
+
+        }
+
+        .winnerBlocks {
+            display: flex;
+            justify-content: space-between;
+
+
+            .winLeft {
+                width: 33%;
+                height: 574px;
+                background-image: url(../public/cikler.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                border-radius: 10px;
+            }
+
+            .winCentr {
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                align-items: center;
+                justify-content: center;
+
+                .free {
+                    width: 290px;
+                    height: 267px;
+                    background-image: url(../public/free.svg);
+                }
+
+                .trad {
+                    width: 290px;
+                    height: 267px;
+                    background-image: url(../public/trad.svg);
+                }
+
+                .serv {
+                    width: 290px;
+                    height: 267px;
+                    background-image: url(../public/serv.svg);
+                }
+
+                .online {
+                    width: 290px;
+                    height: 267px;
+                    background-image: url(../public/online.svg);
+                }
+            }
+
+            .winRight {
+                width: 310px;
+                height: 574px;
+                background-image: url(../public/cikler2.png);
+            }
+        }
+    }
+}
+
+
+.helmetColor {
+    background: #F8F8F8;
+    padding: 80px 0 100px 0;
+
+    .helmet {
+        max-width: 1296px;
+        margin: auto;
+
+        h1 {
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Regular;
+            font-size: 64px;
+            line-height: 123%;
+            letter-spacing: 5%;
+            padding-bottom: 80px;
+            color: #101010;
+            text-align: center;
+
+
+        }
+
+        .cardsH {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+
+
+            .butt {
+                padding: 10px;
+                background: #F8F8F8;
+                border: 0.5px solid black;
+                border-radius: 100px;
+                font-family: Inter;
+
+                &:hover {
+                    background-color: black;
+                    color: #F8F8F8;
+                }
+
+
+            }
+
+            .cardHelm {
+                background: #FFFFFF;
+                border-radius: 10px;
+
+                .helmett {
+                    padding-left: 16px;
+
+                }
+
+                .titlecard {
+                    max-width: 319px;
+                    padding-left: 16px;
+                    padding-bottom: 24px;
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-style: Light;
+                    font-size: 18px;
+                    line-height: 160%;
+                    letter-spacing: 1%;
+
+                }
+
+                .pricecard {
+                    max-width: 349px;
+                    padding-left: 16px;
+                    padding-bottom: 20px;
+                    font-family: Inter;
+                    font-weight: 300;
+                    font-style: Light;
+                    font-size: 18px;
+                    line-height: 160%;
+                    letter-spacing: 1%;
+                }
+            }
+        }
+    }
+}
+
+
+.contacts {
+    .sizeCont {
+        margin: auto;
+        max-width: 1296px;
+
+        h1 {
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Regular;
+            font-size: 64px;
+            line-height: 123%;
+            letter-spacing: 5%;
+            padding: 160px 0 80px 0;
+
+        }
+    }
+
+    .map {
+        background-image: url(../public/map.png);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+
+    }
+
+    .contactsBlock {
+        display: flex;
+        max-width: 1296px;
+        margin: auto;
+        gap: 140px;
+        padding: 40px 0 160px 0;
+
+        .phone,
+        .adress,
+        .mail,
+        .time {
+            display: flex;
+            gap: 16px;
+
+
+            p {
+                font-family: Inter;
+                font-weight: 300;
+                font-style: Light;
+                font-size: 16px;
+                line-height: 160%;
+                padding-bottom: 8px;
+
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width:1350px) {
+    .helmetColor .helmet .cardsH {
+        flex-direction: column;
+    }
+
+    .backWinterCol .bikeSizeW .cards {
+        flex-direction: column;
+    }
+
+    .backCol .bikeSize .cards {
+        flex-direction: column;
+    }
+
+    .winnerCol .winnerSize .winnerBlocks .winLeft{
+        display: none;
+    }
+    .winnerCol .winnerSize .winnerBlocks .winRight{
+        display: none;
+    }
+    .winnerCol .winnerSize .winnerBlocks{
+        justify-content: center;
+    }
+}
+
+@media (max-width:1300px) {
+    .catalog .catalogcount .blackblocks {
+        flex-direction: column;
+
+        .leftblack {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+        }
+    }
+
+    .sizebiker .sizeBlck {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+
+    .sizebiker .backColors .sizeBlck .infos {
+        max-width: 100%;
+    }
+
+    .contacts .contactsBlock{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+    .nevergiveup {
+        flex-direction: column;
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+@media (max-width:850px) {
+    .sizeSel .selector {
+        flex-direction: column;
+        align-items: center;
+
+        .leftSel,
+        .centrSel,
+        .rightSel {
+            width: 100%;
+        }
+    }
+}

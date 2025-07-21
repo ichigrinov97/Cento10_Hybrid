@@ -1,0 +1,46 @@
+.section {
+    max-width: 1296px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 20px 28px 20px;
+
+    .titles {
+        display: flex;
+        gap: 32px;
+
+        p {
+            color: #FFFFFF;
+            font-family: Inter;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 12px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+        }
+
+
+        .orange {
+            color: #F57520;
+        }
+
+    }
+
+    .items{
+        display: flex;
+        gap: 24px;
+        flex-direction: row;
+    }
+}
+
+
+@media (max-width:950px) {
+    .section .titles{
+        display: none;
+    }
+    .section .items{
+        display: none;
+    }
+}
